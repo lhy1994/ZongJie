@@ -170,6 +170,8 @@
   
   Zygote和System进程的启动过程
 
+  Activity的启动过程
+  
   Android的消息机制，Handler原理
   
   AsyncTask源码，优缺点
@@ -181,6 +183,8 @@
   AIDL原理
   
   Binder机制原理
+  
+  ActivityManagerService
   
 
 ###Android框架和源码
