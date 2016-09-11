@@ -98,16 +98,16 @@
   
 ##Android
 
-  项目各个细节熟练，熟悉项目用到的框架源码
-  
+###Android基础
+
   五种布局的特点和效率对比
-  
+
   Activity的生命周期和缓存
-  
-  Fragment的生命周期和缓存
-  
+
+  Fragment的生命周期
+
   Service的两种启动方式，如何保证一个Service不被杀死
-  
+
   广播注册的两种方式的区别
   
   如何安全的退出一个已经开启多个activity的APP
@@ -116,22 +116,24 @@
   
   Asset目录与res目录的区别
   
-  Android怎么加速启动Activity
-  
-  Android内存泄漏问题，内存泄漏分析工具
-  
-  Android内存溢出问题，图片的三级缓存
+  ANR问题，force close问题，activity，service，broadcast各自超过多少秒报ANR
   
   Activity启动模式，intent匹配规则
   
-  ANR问题，force close问题，activity，service，broadcast各自超过多少秒报ANR
+  Android反编译
   
-  Android的IPC机制
+  JNI和native方法
   
-  AIDL原理
+  Android系统的有哪些安全机制
   
-  Binder机制原理
+  Android新特性有哪些（5.0 6.0 7.0）
   
+  Dalvik和ART区别
+  
+  Android屏幕适配有哪些方法
+
+###Android View相关
+
   View事件体系，滑动冲突
   
   View绘制原理，性能问题（view绘制间隔16ms，60fps）,measure，layout，draw三大过程
@@ -142,33 +144,69 @@
   
   Android动画分类和各自特点
   
-  Android的消息机制，Handler原理
-  
-  AsyncTask源码，优缺点
-  
-  HandlerThread和IntentService的原理和特点
-  
+  View和SurfaceView的区别
+
+###Android性能优化
+
+  APK瘦身的办法
+
+  ListView的源码和如何优化Listview
+
   Android如何获取Crash信息
   
   ANR日志分析
   
   Android动态加载，如何解决方法数越界
+
+  Android怎么加速启动Activity
   
-  Android反编译
+  Android内存泄漏问题，内存泄漏分析工具
   
-  JNI和native方法
+  Android内存溢出问题，图片的三级缓存
   
-  Android系统的有哪些安全机制
+###Android framework和底层原理
+
+  Android系统开机过程
   
-  APK瘦身的办法
+  Zygote和System进程的启动过程
+
+  Android的消息机制，Handler原理
   
-  Android新特性有哪些（5.0 6.0 7.0）
+  AsyncTask源码，优缺点
   
-  Dalvik和ART区别
+  HandlerThread和IntentService的原理和特点
+
+  Android的IPC机制
   
-  ListView的源码和如何优化Listview
+  AIDL原理
   
-  View和SurfaceView的区别
+  Binder机制原理
+  
+
+###Android框架和源码
+
+  项目各个细节熟练，熟悉项目用到的框架源码
+  
+  Volley
+  
+  xUtils
+  
+  okHttp
+  
+  UniversalImageLoader
+  
+  RxJava
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
