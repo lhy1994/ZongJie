@@ -50,6 +50,8 @@
   
 ###Jvm虚拟机
 
+  强软弱虚四种引用
+
   java内存分区
   
   java的个内存分区在什么情况下内存溢出
@@ -93,6 +95,85 @@
   java的线程池原理和自带的四大线程池
   
   Executor框架
+  
+##Android
+
+  项目各个细节熟练，熟悉项目用到的框架源码
+  
+  五种布局的特点和效率对比
+  
+  Activity的生命周期和缓存
+  
+  Fragment的生命周期和缓存
+  
+  Service的两种启动方式，如何保证一个Service不被杀死
+  
+  广播注册的两种方式的区别
+  
+  如何安全的退出一个已经开启多个activity的APP
+  
+  Android的进程优先级
+  
+  Asset目录与res目录的区别
+  
+  Android怎么加速启动Activity
+  
+  Android内存泄漏问题，内存泄漏分析工具
+  
+  Android内存溢出问题，图片的三级缓存
+  
+  Activity启动模式，intent匹配规则
+  
+  ANR问题，force close问题，activity，service，broadcast各自超过多少秒报ANR
+  
+  Android的IPC机制
+  
+  AIDL原理
+  
+  Binder机制原理
+  
+  View事件体系，滑动冲突
+  
+  View绘制原理，性能问题（view绘制间隔16ms，60fps）,measure，layout，draw三大过程
+  
+  如何避免overdraw
+  
+  自定义View相关知识，下拉刷新的实现
+  
+  Android动画分类和各自特点
+  
+  Android的消息机制，Handler原理
+  
+  AsyncTask源码，优缺点
+  
+  HandlerThread和IntentService的原理和特点
+  
+  Android如何获取Crash信息
+  
+  ANR日志分析
+  
+  Android动态加载，如何解决方法数越界
+  
+  Android反编译
+  
+  JNI和native方法
+  
+  Android系统的有哪些安全机制
+  
+  APK瘦身的办法
+  
+  Android新特性有哪些（5.0 6.0 7.0）
+  
+  Dalvik和ART区别
+  
+  ListView的源码和如何优化Listview
+  
+  View和SurfaceView的区别
+  
+  
+  
+  
+  
   
   
   
