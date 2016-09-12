@@ -88,7 +88,7 @@
   
   SimpleDateFormat的安全性问题
   
-  java的并发容器包Concurrent。阻塞队列，CopyOnRightList等
+  java的并发容器包Concurrent。阻塞队列，CopyOnWriteList等
   
   ConcurrentHashMap的源理
   
